@@ -3,7 +3,7 @@
 .tell {
     width: 100%;
     height: 22px;
-    background-color: gray;
+    background-color: #483D8B;
 }
 
 .content-tell {
@@ -16,7 +16,7 @@
 }
 
 .num-tell {
-    color: black;
+    color: white;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -141,6 +141,8 @@
     font-size: 28px;
 }
 
+/* Boxes em destaque */
+
 #box {
     width: 894px;
     height: 225px;
@@ -168,4 +170,51 @@
 .txt-box {
     margin-top: 15px;
     text-align: left;
+}
+
+/* Rodapé */
+
+#footer {
+    margin-top: 4px;
+    background-color: #6A5ACD;
+}
+
+#footer footer {
+    align-items: center;
+}
+
+.menu-down ul li {
+    background-color: #6A5ACD;
+    width: 100px;
+    height: 30px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.menu-down ul li:hover {
+    background-color: #191970;
+}
+
+.menu-down ul {
+    padding: 0px;
+}
+
+.menu-down ul li:hover>ul {
+    display: block;
+}
+
+.menu-down a:link {
+    text-decoration: none;
+}
+
+.menu-down a:hover {
+    color: rgb(206, 229, 248);
+}
+
+.menu-down a {
+    color: white;
 }
