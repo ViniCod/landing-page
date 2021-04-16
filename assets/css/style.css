@@ -98,3 +98,20 @@
 .menu a {
     color: white;
 }
+
+/* Carrosel */
+
+.carousel-item {
+    height: 290px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+}
+
+#carousel {
+    margin: auto;
+    width: 894px;
+}

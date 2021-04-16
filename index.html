@@ -20,61 +20,89 @@
 </head>
 
 <body>
-    <!-- Barra de número de contato -->
-    <div class="tell">
-        <div class="content-tell">
-            <div class="d-flex justify-content-end" id="num">
-                <p class="num-tell">11 1234-5678</p>
-                <p class="num-tell">11 8765-4321</p>
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Barra de número de contato -->
+        <div class="tell">
+            <div class="content-tell">
+                <div class="d-flex justify-content-end" id="num">
+                    <p class="num-tell">11 1234-5678</p>
+                    <p class="num-tell">11 8765-4321</p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Fim da barra de número de contato -->
-    <!-- Barra de navegação -->
-    <div class="navbar">
-        <div class="d-flex justify-content-between" id="content-nav">
-            <!-- Logo -->
-            <div class="logo">
-                <img src="/assets/img/logo.jpg" class="logo">
+        <!-- Fim da barra de número de contato -->
+        <!-- Barra de navegação -->
+        <div class="navbar">
+            <div class="d-flex justify-content-between" id="content-nav">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="/assets/img/logo.jpg" class="logo">
+                </div>
+                <!-- Fim do logo -->
+                <!-- Menu de navegação -->
+                <div class="nav">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">EMPRESA</a></li>
+                            <li><a href="#">DESTINOS</a>
+                                <ul>
+                                    <li><a href="#">AMÉRICA</a>
+                                        <ul>
+                                            <li><a href="#">BRASIL</a></li>
+                                            <li><a href="#">CANADÁ</a></li>
+                                            <li><a href="#">CHILE</a></li>
+                                            <li><a href="#">MÉXICO</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">EUROPA</a>
+                                        <ul>
+                                            <li><a href="#">INGLATERRA</a></li>
+                                            <li><a href="#">ESPANHA</a></li>
+                                            <li><a href="#">FRANÇA</a></li>
+                                            <li><a href="#">ALEMANHA</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">ÁSIA</a></li>
+                                    <li><a href="#">ÁFRICA</a></li>
+                                    <li><a href="#">OCEANIA</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Fim do menu de navegação -->
             </div>
-            <!-- Fim do logo -->
-            <!-- Menu de navegação -->
-            <div class="nav">
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">EMPRESA</a></li>
-                        <li><a href="#">DESTINOS</a>
-                            <ul>
-                                <li><a href="#">AMÉRICA</a>
-                                    <ul>
-                                        <li><a href="#">BRASIL</a></li>
-                                        <li><a href="#">CANADÁ</a></li>
-                                        <li><a href="#">CHILE</a></li>
-                                        <li><a href="#">MÉXICO</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">EUROPA</a>
-                                    <ul>
-                                        <li><a href="#">INGLATERRA</a></li>
-                                        <li><a href="#">ESPANHA</a></li>
-                                        <li><a href="#">FRANÇA</a></li>
-                                        <li><a href="#">ALEMANHA</a></li>
-                                    </ul>
-                                </li>
-                               <li><a href="#">ÁSIA</a></li>
-                                <li><a href="#">ÁFRICA</a></li>
-                                <li><a href="#">OCEANIA</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">CONTATO</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- Fim do menu de navegação -->
         </div>
-    </div>
-    <!-- Fim da barra de navegação -->
+        <!-- Fim da barra de navegação -->
+    </header>
+    <!-- Fim do cabeçalho -->
+    <!-- Carrossel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" style="background-image: url('/assets/img/slide1.jpg')">
+            </div>
+            <div class="carousel-item" style="background-image: url('/assets/img/slide2.jpg')">
+            </div>
+            <div class="carousel-item" style="background-image: url('/assets/img/slide3.jpg')">
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Fim do carrossel -->
 </body>
 
 </html>
