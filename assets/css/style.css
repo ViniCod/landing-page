@@ -1,4 +1,5 @@
 /* Barra de número de contato */
+
 .tell {
     width: 100%;
     height: 22px;
@@ -17,4 +18,83 @@
 .num-tell {
     color: black;
     margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Barra de navegação */
+
+.navbar {
+    background-color: #6A5ACD;
+    height: 50px;
+}
+
+#content-nav {
+    width: 894px;
+    height: 50px;
+    margin: auto;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 60px;
+    height: 35px;
+}
+
+.nav {
+    width: 400px;
+}
+
+.menu ul li {
+    background-color: #6A5ACD;
+    width: 100px;
+    height: 30px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu ul li:hover {
+    background-color: #191970;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.menu ul ul ul {
+    margin-left: 100px;
+    top: 0px;
+    position: absolute;
+}
+
+.menu ul ul li:hover {
+    background-color: #191970;
+}
+
+.menu ul ul ul li:hover {
+    background-color: #191970;
+}
+
+.menu a:link {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: rgb(206, 229, 248);
+}
+
+.menu a {
+    color: white;
 }
